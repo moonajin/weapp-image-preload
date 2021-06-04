@@ -1,0 +1,6 @@
+<view>
+  <!-- 因为defaulteImage有默认值，所以可不传，这里为了演示就把组件设置的所有参数都传了 -->
+  <image-preload defaulte-image="../../images/default.png" actual-image="https://images.jinjin.link/cat2.jpg"
+    mode="aspectFill" image-class="image">
+  </image-preload>
+</view>

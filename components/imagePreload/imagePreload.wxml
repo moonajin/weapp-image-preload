@@ -1,0 +1,7 @@
+<view class="image-preload">
+  <!-- 图片加载中 或 图片加载失败时显示默认图片 -->
+  <image wx:if="{{!isLoadingFinish}}" src="{{defaulteImage}}" mode="{{mode}}" class="image-class" />
+  <!-- 图片加载完成 且 图片无错误时显示  -->
+  <image hidden="{{!isLoadingFinish}}" src="{{actualImage}}" mode="{{mode}}" class="image-class" bindload="LoadFinish"
+    binderror="loadError" />
+</view>

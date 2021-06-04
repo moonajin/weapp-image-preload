@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "image-preload": "/components/imagePreload/imagePreload"
+  }
+}
